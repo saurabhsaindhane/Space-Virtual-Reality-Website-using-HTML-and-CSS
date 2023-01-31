@@ -1,0 +1,206 @@
+
+body {
+  background-image: url("https://media.giphy.com/media/elcAvTEXkG02d17sr7/giphy.gif");
+  color:white;
+}
+h1{
+ font-family: serif;
+ font-size: 24px;
+ font-style: normal;
+ font-weight: bold;
+ color: lightblue;
+ text-align: center;
+ text-decoration: underline
+   background: linear-gradient(to bottom, #33ccff 0%, #000 100%);
+}
+
+h2{
+ font-family: Sans-serif;
+ font-size: 24px;
+ font-style: normal;
+ font-weight: bold;
+ color: lightblue;
+ text-align: center;
+ text-decoration: underline
+   background: linear-gradient(to bottom, #33ccff 0%, #000 100%);
+}
+table{
+ font-family: verdana;
+ color:white;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: bold;
+ background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+ border-collapse: collapse;
+ border: 4px solid #000000;
+ border-style: dashed;
+
+}
+table.inner{
+ border: 10px
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+
+}
+.center {
+
+  margin-left: 80px;
+  margin-right: auto;
+
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.form-container {
+  width: 300px;
+   max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  text-color = "black"
+  left:300px;
+
+}
+
+form {max-width: 500px;
+  background: linear-gradient(to bottom, #33ccff 0%, #000 100%);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+ display:block;margin:auto;
+   left:500px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+    text-color = "black"
+    left:300px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+    text-color = "black"
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://images.wallpaperscraft.com/image/single/planet_light_stars_nebula_67770_1280x720.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-img2 {
+  /* The image used */
+  background-image: url("https://images.wallpaperscraft.com/image/single/planet_light_stars_nebula_67770_1280x720.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 600px;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
